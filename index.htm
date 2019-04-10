@@ -10,22 +10,44 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <!-- CSS Link -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/parallaxStyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/collapseSidebarMenuStyle.css">
 
     <!-- jQuery Link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- JavaScript Link -->
-    <script src="assets/javascript/javascript.js"></script>
-
+    <script src="assets/javascript/parallaxJavascript.js"></script>
+    <script src="assets/javascript/collapseSidebarMenuJavascript.js"></script>
+    <script src="assets/javascript/jumpToAnchorAnimateSmoothScrollJavascript.js"></script>
+    
     <title>Parallax Scrolling App</title>
 
   </head>
 
 <body>
 
+  <!-- SIDEBAR MENU -->
+
+  <!-- Hamburger Icon -->
+  <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>   
+  </div>
+
+  <!-- Sidebar -->
+  <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#topAnchor">Top</a>
+      <a href="#bottomAnchor">Bottom</a>
+  </div>
+    
+
+
+  <!---------------------------------------->
+  <!-- PARALLAX CONTENT STARTS HERE -->
+
   <div class="parallax" id="parallax-1" data-image-src="https://source.unsplash.com/random/1920x1080" style="background-image: url(&quot;https://source.unsplash.com/random/1920x1080&quot;); background-position: center -150px;">
-    <div class="caption">
+    <div class="caption" id="topAnchor">
       <span class="border">SCROLL DOWN</span>
     </div>
   </div>
@@ -64,12 +86,14 @@
   </div>
 
   <div class="parallax" id="parallax-6" data-image-src="https://source.unsplash.com/random/1920x1082" style="background-image: url(&quot;https://source.unsplash.com/random/1920x1082&quot;); background-position: center 0px;">
-    <div class="caption">
+    <div class="caption" id="bottomAnchor">
       <span class="border">END!</span>
     </div>
   </div>
+
+  <!-- PARALLAX CONTENT ENDS HERE -->
+
  
-  
   
 </body>
 </html>

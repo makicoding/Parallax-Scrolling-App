@@ -1,3 +1,5 @@
+console.log ("Parallax JavaScript Connected!");
+
 $(document).ready(function(){
 
   // Populate images from data attributes.
