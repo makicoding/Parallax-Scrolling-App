@@ -16,6 +16,6 @@ An app displaying a parallax effect.
 Parallax scrolling is a website trend where the background content is moved at a different speed than the foreground content while scrolling.
 <br></br>
 
-![Screenshot](https://raw.githubusercontent.com/makicoding/Moonbucks-Coffee-App/master/screenshot/Moonbucks_Screenshot_01.png)
+<kbd>![Screenshot](https://raw.githubusercontent.com/makicoding/Parallax-Scrolling-App/master/screenshot/Parallax_Screenshot_01.png)</kbd>
 
 
