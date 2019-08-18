@@ -6,8 +6,28 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+  /* font: 400 15px/1.8 "Lato", sans-serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Titillium Web', sans-serif; */
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Anton', sans-serif; */
+  /* font-family: 'Fjalla One', sans-serif; */
+  /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Bree Serif', serif; */
+  /* font-family: 'Rajdhani', sans-serif; */
+  /* font-family: 'Alfa Slab One', cursive; */
+  /* font-family: 'Bangers', cursive; */
+  /* font-family: 'Ultra', serif; */
+  /* font-family: 'Monoton', cursive; */
+  /* font-family: 'Oleo Script', cursive; */
+  /* font-family: 'Tinos', serif; */
+  /* font-family: 'Contrail One', cursive; */
+  /* font-family: 'Molle', cursive; */
+  font-family: 'Courgette', cursive;
+  /* font-family: 'Mrs Sheppards', cursive; */
+
+  font-weight: 400;
+  font-size: 30px;
 }
 
 .parallax {
@@ -41,9 +61,17 @@ body, html {
 }
 
 .caption .border {
+  /* border: 3px solid #cb09bb; */
+  border: 4px solid black;
   background-color: #ffd014;
+  background-color: #fcd330;
+  background-color: #ffe064;
+  /* background-color: #ffdb4d; */
   color: #f715e4;
-  padding: 18px;
+  /* color: white;
+  background-color: #f03cae; */
+  padding: 27px 27px 20px 30px;
+
   /* font-family: 'Nunito', sans-serif; */
   /* font-family: 'Titillium Web', sans-serif; */
   /* font-family: 'Quicksand', sans-serif; */
@@ -56,9 +84,15 @@ body, html {
   /* font-family: 'Bangers', cursive; */
   /* font-family: 'Ultra', serif; */
   /* font-family: 'Monoton', cursive; */
-  font-family: 'Oleo Script', cursive;
-  font-size: 25px;
-  /* font-weight: 700; */
+  /* font-family: 'Oleo Script', cursive; */
+  /* font-family: 'Tinos', serif; */
+  /* font-family: 'Contrail One', cursive; */
+  font-family: 'Molle', cursive;
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Mrs Sheppards', cursive; */
+
+  font-size: 30px;
+  font-weight: 700;
   letter-spacing: 10px;
 }
 
@@ -71,7 +105,7 @@ h3 {
 }
 
 .text {
-  color: #777777;
+  color: #606060;
   background-color: #ffffff;
   text-align: center;
   padding: 50px 80px;
