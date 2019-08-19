@@ -31,6 +31,28 @@ body, html {
   font-size: 30px;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+/* h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111111;
+  text-align:center;
+} */
+
+.text {
+  /* color: #606060; */
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
 .parallax {
   position: relative;
   background-attachment: fixed;
@@ -97,23 +119,6 @@ body, html {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 10px;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111111;
-  text-align:center;
-}
-
-.text {
-  color: #606060;
-  color: black;
-  background-color: #ffffff;
-  text-align: center;
-  padding: 50px 80px;
-  text-align: justify;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
