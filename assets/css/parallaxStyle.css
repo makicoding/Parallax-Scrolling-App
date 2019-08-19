@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'molleregular';
+  src: url('assets/fonts/molle-regularitalic-webfont.woff2') format('woff2'),
+       url('assets/fonts/molle-regularitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -23,8 +32,8 @@ body, html {
   /* font-family: 'Oleo Script', cursive; */
   /* font-family: 'Tinos', serif; */
   /* font-family: 'Contrail One', cursive; */
-  font-family: 'Molle', cursive;
-  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Molle', cursive; */
+  font-family: 'Courgette', cursive;
   /* font-family: 'Mrs Sheppards', cursive; */
 
   font-weight: 400;
@@ -88,9 +97,19 @@ body, html {
   /* font-family: 'Oleo Script', cursive; */
   /* font-family: 'Tinos', serif; */
   /* font-family: 'Contrail One', cursive; */
-  font-family: 'Molle', cursive;
+  /* font-family: 'Molle', cursive; */
   /* font-family: 'Courgette', cursive; */
   /* font-family: 'Mrs Sheppards', cursive; */
+
+  /* font-family: 'Pacifico', cursive; */
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Kaushan Script', cursive; */
+  /* font-family: 'Yellowtail', cursive;
+  font-family: 'Damion', cursive;
+  font-family: 'Leckerli One', cursive;
+  font-family: 'Mrs Sheppards', cursive; */
+  font-family: 'molleregular';
 
   font-size: 30px;
   font-weight: 700;
