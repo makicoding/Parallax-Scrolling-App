@@ -18,7 +18,7 @@
   /* padding: 8px 8px 8px 32px; */
   margin: 0px 0px 18px 0px;
   text-decoration: none;
-  font-family: 'Molle', cursive;
+  font-family: 'molleregular';
   font-size: 34px;
   color: #0c13d4;
   text-align: center;
@@ -51,7 +51,6 @@
   cursor: pointer;
   background-color: #0c13d4;
   color: white;
-  /* font-family: 'Molle', cursive; */
   padding: 10px 15px;
   /* border: 1px solid #cecece; */
   border: 2px solid white;
