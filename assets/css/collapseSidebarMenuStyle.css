@@ -15,8 +15,8 @@
 
 /* The sidebar links */
 .sidebar a {
-  /* padding: 8px 8px 8px 32px; */
-  margin: 0px 0px 18px 0px;
+  /* margin: 0px 0px 18px 0px; */
+  margin: 0px 0px 28px 0px;
   text-decoration: none;
   font-family: 'molleregular';
   font-size: 34px;
@@ -31,8 +31,6 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  /* color: #818181; */
-  /* color: #d313c3; */
   color: #f12ae1;
 }
 
@@ -52,7 +50,6 @@
   background-color: #0c13d4;
   color: white;
   padding: 10px 15px;
-  /* border: 1px solid #cecece; */
   border: 2px solid white;
 
   position: fixed;
